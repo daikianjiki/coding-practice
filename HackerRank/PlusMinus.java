@@ -19,7 +19,7 @@ class PlusMinus {
     }
 
     public static List<Double> plusMinus(List<Integer> arr) {
-        List<Double> d = new ArrayList<>();
+        List<Double> d = new ArrayList<>(); 
         int pos = 0;
         int neg = 0;
         int zer = 0;
@@ -37,7 +37,6 @@ class PlusMinus {
         d.add((double)pos/arr.size());
         d.add((double)neg/arr.size());
         d.add((double)zer/arr.size());
-
         return d;
     }
 }
