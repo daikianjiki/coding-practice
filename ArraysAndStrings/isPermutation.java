@@ -2,7 +2,7 @@ package ArraysAndStrings;
 
 import java.util.Arrays;
 
-public class IsPermutation {
+public class isPermutation {
 
     // Check Permutation: Given two strings, write a method to decide if one 
     // is a permutation of the other.
