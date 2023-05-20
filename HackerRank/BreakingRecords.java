@@ -4,6 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BreakingRecords {
+    /**
+     * Given the scores for a season, determine the number of times the player 
+     * breaks their records for most and least points scored during the season.
+     * 
+     * Example:
+     * scores = [10, 5, 20, 20, 4, 5, 2, 25, 1]
+     * 
+     * Return:
+     * records = [2, 4]
+     * Where records[0] is for breaking most points records, and 
+     * records[1] is for breaking least points records.
+     */
 
     public static void main(String[] args) {
         List<Integer> scores = new ArrayList<>();
